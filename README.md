@@ -25,7 +25,7 @@ CodeTut is an interactive web-based code playground that allows users to write a
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/codetut.git
+git clone https://github.com/ayushman247/CodeTut.git
 cd codetut
 npm install
 npm start
