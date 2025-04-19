@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.split {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+
+  .gutter {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+  
+  .gutter.gutter-horizontal {
+    cursor: col-resize;
+  }
+  
+  .gutter.gutter-vertical {
+    cursor: row-resize;
+  }
